@@ -1,0 +1,99 @@
+
+
+html {
+    height: 100%;
+}
+
+
+body {
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    /* background-color: yellow; */
+    /* padding: 5px; */
+    margin: 0;
+    font-family: sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: stretch; */
+}
+
+
+.flex-col-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#hero {
+    /* height: 230px; */
+    background-color: rgb(99, 69, 251);
+    color: white;
+}
+
+#hero h2 {
+    margin-top: 20px;
+}
+
+#hero input {
+    /* margin: 20px; */
+    font-size: 45px;
+    font-weight: bold;
+    border: 2px solid rgb(175, 175, 175);
+    border-radius: 5px;
+    width: 120px;
+    background-color: rgb(99, 69, 251);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#hero button {
+    background-color: white;
+    font-family: inherit;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 25px;
+    font-weight: bold;
+    color: darkslategrey;
+    margin: 20px 0px;
+}
+
+#hero button:hover {
+    background-color: rgb(231, 230, 230);
+}
+
+#hero button:active {
+    background-color: rgb(171, 171, 171);
+}
+
+.conversion-container h3 {
+    color: rgb(94, 74, 193);
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.conversion-container p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: rgb(12, 12, 12)
+}
+
+
+.conversion-container {
+    background-color: white;
+    width: 90%;
+}
+
+#div-container {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0px;
+}
